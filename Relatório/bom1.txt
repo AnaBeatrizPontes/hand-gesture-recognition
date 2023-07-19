@@ -1,0 +1,8 @@
+Orientation: Vertical
+totalWhitePixels = 12818
+leftWhitePixels = 1504
+rigthWhitePixels = 1975
+whitePixelLimit = 897.26
+No thumb
+qtde_final_dedos = 3
+Weighted Centroid: (53, 122)
