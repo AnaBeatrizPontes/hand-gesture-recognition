@@ -2,8 +2,14 @@
 marp: true
 theme: default
 paginate: true
-header: _UnB - Introdução ao processamento de Imagens_
+header:  <div style="display: flex;flex-direction: row; align-items: center; width: 100%;"><img style="float: center; width: 80px;" src="unb.png"> &nbsp; _UnB - Introdução ao processamento de Imagens_</div>
 footer: Hand Gesture Recognition based on Shape Parameters
+style: |
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
 ---
 
 <!-- _paginate: false -->
@@ -50,13 +56,24 @@ footer: Hand Gesture Recognition based on Shape Parameters
 ![bg right w:500](exemplo.jpg)
 
 ---
+<div class="columns">
+<div>
+<br><br><br><br>
 
 - Detecção de orientação
 - Detecção de pontos de interesse
 - Rotação da imagem
 
-![bg vertical right w:230](img48.jpg) ![bg w:200](img49.jpg)
-![bg right w:200](img46.jpg) ![bg w:200](img47.jpg)
+</div>
+<div>
+
+Identificação|Dimensões
+:------------------------------------:|:---------------------:
+![right w:230](img48.jpg) | ![w:200](img49.jpg)
+![right w:200](img46.jpg) | ![w:200](img47.jpg)
+</div>
+</div>
+
 
 ---
 
@@ -146,7 +163,7 @@ Cor|Significado
 
 <!-- _paginate: false -->
 <!-- _header: ""-->
-<!-- _footer: "" -->
+<!-- footer: " " -->
 
 - Meenakshi Panwar and Pawan Singh Mehra , “Hand Gesture Recognition
   for Human Computer Interaction”
@@ -158,3 +175,7 @@ Cor|Significado
   Recognition by Thinning Method”
 
 ---
+<!-- _paginate: false -->
+<!-- _footer: "Imagem de agradecimento retirada dos slides do Professor Pedro Garcia. Fonte: https://github.com/pedrogarciafreitas" -->
+
+![bg fit](thanks.png)
